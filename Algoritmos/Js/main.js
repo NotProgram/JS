@@ -106,3 +106,46 @@ function conversion(){
     alert('Esa unidad en kilometros es : ' + kilometros + ' Y en pulgadas es : ' + pulgadas);
     
 }
+
+
+function numeroMayor() {
+    let num1 = prompt('Digite el primer numero');
+    let num2 = prompt('Digite el segundo numero');
+
+    if (num1 > num2) {
+        alert('El numero mayor es: '+ num1) ;
+      }
+      else if(num1 == num2){
+        alert('Son iguales');
+      } 
+      else {
+       alert('El numero mayor es: '+ num2) ;
+      }
+}
+
+
+function numeroMenor() {
+    let num1 = prompt('Digite el primer numero');
+    let num2 = prompt('Digite el segundo numero');
+    let num3 = prompt('Digite el tercer numero');
+
+    let menor = num1;
+
+    if (num2 < menor) {
+      menor = num2;
+    }
+  
+    if (num3 < menor) {
+      menor = num3;
+    }
+
+    alert('Numero menor: ' + menor);
+}
+
+function descuento(){
+    let porcentajeDescuento = 20;
+    let valor = prompt('ingrese valor: ');
+    let descuento = (porcentajeDescuento / 100) * valor;
+    let valorConDescuento = valor - descuento;
+    alert('descuento: ' + valorConDescuento);
+}
