@@ -94,7 +94,7 @@ function calcularEdad(){
 /* realizar un algoritmo que capture un valor en metros y nos muestre en pantalla
 la conversión a kilometros y pulgadas. */
 
-function Conversion(){
+function conversion(){
     let metros = 0;
     let kilometros= 0;
     let pulgadas= 0;
