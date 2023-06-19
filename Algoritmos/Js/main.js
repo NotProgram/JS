@@ -47,20 +47,6 @@ function cuadrado(){
     alert("El cuadrado del numero ingresado es " +C);
 }
 
-// function areaTriangulo(){
-//     const d = 2;
-//     let b = 0;
-//     let h = 0;
-    
-//     b = Number(prompt('Ingrese la base del triangulo: '));
-//     h = Number(prompt('Ingrese la altura del triangulo: '));
-
-//     r = b * h / d;
-
-//     alert('El area del triangulo es: ' + r);
-
-
-// }
 
 areaTriangulo = () => {
     let b = 0;
@@ -100,15 +86,15 @@ function calcularEdad(){
     
     edad = parseInt(prompt('Ingrese su edad: '));
 
-    añoNacimiento = 2023 - edad;
+    anioNacimiento = 2023 - edad;
 
-    alert('Año de nacimineto: ' + añoNacimiento);
+    alert('Año de nacimineto: ' + anioNacimiento);
 }
 
 /* realizar un algoritmo que capture un valor en metros y nos muestre en pantalla
 la conversión a kilometros y pulgadas. */
 
-function Convercion(){
+function Conversion(){
     let metros = 0;
     let kilometros= 0;
     let pulgadas= 0;
